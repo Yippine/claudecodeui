@@ -109,7 +109,7 @@ temp/
 # Database files
 *.db
 *.sqlite
-*.sqlite3 
+*.sqlite3
 
 logs
 dev-debug.log
@@ -125,4 +125,7 @@ dev-debug.log
 
 # Task files
 tasks.json
-tasks/ 
+tasks/
+
+# Claude specific files
+**/CLAUDE.md
